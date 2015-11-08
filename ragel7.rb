@@ -13,6 +13,7 @@ class Ragel7 < Formula
         "--with-ragel=#{Formula["ragel"].opt_prefix}",
         "--with-kelbt=#{Formula["kelbt"].opt_prefix}",
         "--with-colm=#{Formula["colm"].opt_prefix}",
+	"--docdir=#{prefix}/share/doc/ragel7",
         "--program-suffix=7"
     system "make", "install"
   end
