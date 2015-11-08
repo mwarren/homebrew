@@ -12,7 +12,8 @@ class Ragel7 < Formula
     system "./configure", "--disable-dependency-tracking", "--prefix=#{prefix}",
         "--with-ragel=#{Formula["ragel"].opt_prefix}",
         "--with-kelbt=#{Formula["kelbt"].opt_prefix}",
-        "--with-colm=#{Formula["colm"].opt_prefix}"
+        "--with-colm=#{Formula["colm"].opt_prefix}",
+        "--program-suffix=7"
     system "make", "install"
   end
 end
