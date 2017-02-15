@@ -4,7 +4,7 @@ class Dblatex < Formula
   env :userpaths
   url 'http://downloads.sourceforge.net/project/dblatex/dblatex/dblatex-0.3.9/dblatex-0.3.9.tar.bz2'
   homepage 'http://dblatex.sourceforge.net'
-  md5 '38e9fd93dd37d71e352010ad40e1dfb4'
+  sha256 '06e039f841bc9f163555da2fdeeaba65e45fd4aa0d621c54ff9c7b990bfbb15d'
  
   def install
     system "python", "setup.py", "install", "--prefix=#{prefix}", "--install-scripts=#{bin}"
