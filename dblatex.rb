@@ -1,4 +1,6 @@
 require 'formula'
+
+# original from: https://gist.githubusercontent.com/dustinschultz/6544364/raw/5bbe233fbe953b8070c5453fdf09cd65eb515e9e/dblatex.rb
  
 class Dblatex < Formula
   env :userpaths
